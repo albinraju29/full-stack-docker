@@ -24,5 +24,7 @@ app.post('/api/items', (req, res) => {
   res.json(newItem);
 });
 
-// Start server
-app.listen(3001, () => console.log("✅ Backend running on http://localhost:3001"));
+// Start server on all interfaces
+app.listen(3001, '0.0.0.0', () => {
+  console.log("✅ Backend running on http://0.0.0.0:3001");
+});
