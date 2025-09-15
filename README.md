@@ -216,8 +216,4 @@ docker run -p 3000:3000 albinraju29/full-stack-docker-frontend
 
 This project is licensed under the **MIT License**.
 
----
 
-This README is now **detailed**, covers Docker setup, running the app, API usage, troubleshooting, and links to Docker Hub images.
-
----
